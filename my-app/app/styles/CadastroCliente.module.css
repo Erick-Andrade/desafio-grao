@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+    background-image: url('loginImage.jpg'); /* Caminho para a imagem dentro da pasta public */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+  }
+  
+  .formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  .errorInput {
+    border: 2px solid red;
+  }
+  
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+
+  .input:focus {
+    border-color: #4c90f0;
+    outline: none;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button {
+    width: 48%;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #333333;  /* Preto */
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #222222;  /* Tom mais escuro de preto */
+  }
+
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Estilos para inputs lado a lado em grupos */
+  .doubleInputGroup {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .inputHalf {
+    flex: 1;
+  }

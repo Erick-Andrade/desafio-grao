@@ -1,0 +1,109 @@
+/* menu.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logoImage {
+  height: 70px;
+  width: auto;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  margin-left: 20px; /* Ajuste o espaço entre a logo e o endereço */
+}
+
+.greeting {
+  font-size: 14px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.locationIcon {
+  font-size: 18px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+/* Estilo do menu no mobile */
+.menuIcon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.iconBar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+/* Estilo específico para o menu mobile */
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #444;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.mobileMenu .navLink {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .menuIcon {
+    display: flex;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .navLinks.mobileMenu {
+    display: flex;
+  }
+}

@@ -1,0 +1,98 @@
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Banner */
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .bannerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .logoImage {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    max-width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Informações do restaurante */
+  .info {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Detalhes do restaurante */
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .detail {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .detail strong {
+    color: #007BFF;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .banner {
+      height: 200px;
+    }
+  
+    .name {
+      font-size: 24px;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    .detail {
+      font-size: 14px;
+    }
+  
+    .logoImage {
+      max-width: 120px;
+      bottom: 10px;
+      left: 10px;
+    }
+  }
+  

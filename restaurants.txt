@@ -1,0 +1,258 @@
+[
+  {
+    "banner": "/images/banner1.jpg",
+    "logo": "/images/logo1.jpg",
+    "name": "Restaurante do Sol",
+    "description": "Restaurante especializado em culinária brasileira.",
+    "rating": 4.5,
+    "time": "30-40min",
+    "price": "R$12,00",
+    "phone": "(34) 1234-5678",
+    "address": {
+      "street": "Rua do Sol, 123",
+      "city": "Uberaba",
+      "zipCode": "38000-000"
+    },
+    "menu": {
+      "destaque": [
+        { "name": "Feijoada", "description": "Feijão preto com carne de porco", "price": "R$35,00", "image": "/images/destaque_1.jpg" },
+        { "name": "Moqueca", "description": "Peixe cozido com molho de dendê e leite de coco", "price": "R$45,00", "image": "/images/destaque_2.jpg" },
+        { "name": "Churrasco", "description": "Carne grelhada na brasa", "price": "R$50,00", "image": "/images/destaque_3.jpg" },
+        { "name": "Bobó de Camarão", "description": "Camarão cozido com mandioca e leite de coco", "price": "R$40,00", "image": "/images/destaque_4.jpg" }
+      ],
+      "pratos": [
+        { "name": "Arroz Carreteiro", "description": "Arroz com carne de sol e legumes", "price": "R$28,00", "image": "/images/pratos_1.jpg" },
+        { "name": "Baião de Dois", "description": "Arroz e feijão verde com queijo coalho", "price": "R$30,00", "image": "/images/pratos_2.jpg" },
+        { "name": "Galinhada", "description": "Frango com arroz e legumes", "price": "R$32,00", "image": "/images/pratos_3.jpg" }
+      ],
+      "bebidas": [
+        { "name": "Água", "description": "Água mineral", "price": "R$3,00", "image": "/images/bebidas_1.jpg" },
+        { "name": "Refrigerante", "description": "Coca-Cola", "price": "R$5,00", "image": "/images/bebidas_2.jpg" }
+      ]
+    }
+  },
+  {
+    "banner": "/images/banner2.jpg",
+    "logo": "/images/logo2.jpg",
+    "name": "Sabor e Arte",
+    "description": "Comida gourmet com toques de arte.",
+    "rating": 4.7,
+    "time": "20-30min",
+    "price": "R$8,00",
+    "phone": "(34) 2345-6789",
+    "address": {
+      "street": "Avenida das Artes, 456",
+      "city": "Uberaba",
+      "zipCode": "38000-111"
+    },
+    "menu": {
+      "destaque": [
+        { "name": "Risoto de Camarão", "description": "Risoto cremoso com camarões frescos", "price": "R$45,00", "image": "/images/destaque_5.jpg" },
+        { "name": "Tartar de Salmão", "description": "Salmão cru com molho cítrico e abacate", "price": "R$55,00", "image": "/images/destaque_6.jpg" },
+        { "name": "Filé Mignon", "description": "Filé mignon grelhado com molho de vinho", "price": "R$65,00", "image": "/images/destaque_7.jpg" },
+        { "name": "Ceviche", "description": "Peixe fresco marinado em limão e especiarias", "price": "R$40,00", "image": "/images/destaque_8.jpg" }
+      ],
+      "pratos": [
+        { "name": "Lasanha de Abobrinha", "description": "Lasanha vegana com abobrinha e molho pesto", "price": "R$35,00", "image": "/images/pratos_4.jpg" },
+        { "name": "Bife à Parmegiana", "description": "Bife empanado com molho de tomate e queijo", "price": "R$40,00", "image": "/images/pratos_5.jpg" },
+        { "name": "Peixe ao Molho de Laranja", "description": "Peixe grelhado com molho cítrico de laranja", "price": "R$48,00", "image": "/images/pratos_6.jpg" }
+      ],
+      "bebidas": [
+        { "name": "Água", "description": "Água mineral", "price": "R$3,50", "image": "/images/bebidas_3.jpg" },
+        { "name": "Refrigerante", "description": "Guaraná Antarctica", "price": "R$6,00", "image": "/images/bebidas_4.jpg" }
+      ]
+    }
+  },
+  {
+    "banner": "/images/banner3.jpg",
+    "logo": "/images/logo3.jpg",
+    "name": "Café & Cia",
+    "description": "Cafeteria de excelência com opções de brunch.",
+    "rating": 4.2,
+    "time": "10-20min",
+    "price": "R$5,00",
+    "phone": "(34) 3456-7890",
+    "address": {
+      "street": "Rua da Café, 789",
+      "city": "Uberaba",
+      "zipCode": "38000-222"
+    },
+    "menu": {
+      "destaque": [
+        { "name": "Cappuccino", "description": "Café expresso com leite vaporizado", "price": "R$15,00", "image": "/images/destaque_9.jpg" },
+        { "name": "Torta de Limão", "description": "Torta fresca com creme de limão e merengue", "price": "R$18,00", "image": "/images/destaque_10.jpg" },
+        { "name": "Panqueca Americana", "description": "Panquecas fofas com mel e frutas", "price": "R$20,00", "image": "/images/destaque_11.jpg" },
+        { "name": "Bolo de Chocolate", "description": "Bolo de chocolate com cobertura cremosa", "price": "R$22,00", "image": "/images/destaque_12.jpg" }
+      ],
+      "pratos": [
+        { "name": "Sanduíche de Queijo Quente", "description": "Pão tostado com queijo derretido", "price": "R$12,00", "image": "/images/pratos_7.jpg" },
+        { "name": "Omelete", "description": "Omelete com cogumelos e queijo", "price": "R$15,00", "image": "/images/pratos_8.jpg" },
+        { "name": "Salada de Frutas", "description": "Mix de frutas frescas", "price": "R$10,00", "image": "/images/pratos_9.jpg" }
+      ],
+      "bebidas": [
+        { "name": "Água", "description": "Água mineral", "price": "R$3,00", "image": "/images/bebidas_5.jpg" },
+        { "name": "Refrigerante", "description": "Pepsi", "price": "R$5,00", "image": "/images/bebidas_6.jpg" }
+      ]
+    }
+  },
+  {
+    "banner": "/images/banner4.jpg",
+    "logo": "/images/logo4.jpg",
+    "name": "Cantinho Vegano",
+    "description": "Restaurante 100% vegano com pratos saudáveis.",
+    "rating": 4.8,
+    "time": "30-45min",
+    "price": "R$10,00",
+    "phone": "(34) 4567-8901",
+    "address": {
+      "street": "Rua Verde, 101",
+      "city": "Uberaba",
+      "zipCode": "38000-333"
+    },
+    "menu": {
+      "destaque": [
+        { "name": "Burguer Vegano", "description": "Hambúrguer de grão-de-bico com molho especial", "price": "R$20,00", "image": "/images/destaque_13.jpg" },
+        { "name": "Feijoada Vegana", "description": "Feijão preto com tofu e legumes", "price": "R$25,00", "image": "/images/destaque_14.jpg" },
+        { "name": "Lasanha de Berinjela", "description": "Lasanha com berinjela, queijo vegano e molho de tomate", "price": "R$30,00", "image": "/images/destaque_15.jpg" },
+        { "name": "Tapioca de Coco", "description": "Tapioca recheada com coco e mel", "price": "R$12,00", "image": "/images/destaque_16.jpg" }
+      ],
+      "pratos": [
+        { "name": "Salada de Grão-de-Bico", "description": "Grão-de-bico com legumes frescos", "price": "R$18,00", "image": "/images/pratos_10.jpg" },
+        { "name": "Quibe Vegano", "description": "Quibe recheado com legumes e especiarias", "price": "R$22,00", "image": "/images/pratos_11.jpg" },
+        { "name": "Batata Doce Assada", "description": "Batata doce assada com ervas finas", "price": "R$15,00", "image": "/images/pratos_12.jpg" }
+      ],
+      "bebidas": [
+        { "name": "Água", "description": "Água mineral", "price": "R$3,50", "image": "/images/bebidas_7.jpg" },
+        { "name": "Refrigerante", "description": "Refrigerante de laranja", "price": "R$5,50", "image": "/images/bebidas_8.jpg" }
+      ]
+    }
+  },
+  {
+    "banner": "/images/banner5.jpg",
+    "logo": "/images/logo5.jpg",
+    "name": "Pizzaria Bella Itália",
+    "description": "Autênticas pizzas italianas com ingredientes frescos.",
+    "rating": 4.6,
+    "time": "25-35min",
+    "price": "R$7,50",
+    "phone": "(34) 5678-1234",
+    "address": {
+      "street": "Rua das Flores, 456",
+      "city": "Uberaba",
+      "zipCode": "38000-444"
+    },
+    "menu": {
+      "destaque": [
+        { "name": "Pizza Margherita", "description": "Massa fina com molho de tomate, mozzarella e manjericão", "price": "R$45,00", "image": "/images/destaque_17.jpg" },
+        { "name": "Pizza Calabresa", "description": "Pizza com calabresa, cebola e azeitonas", "price": "R$50,00", "image": "/images/destaque_18.jpg" },
+        { "name": "Pizza Portuguesa", "description": "Pizza com presunto, queijo, ovo e azeitonas", "price": "R$55,00", "image": "/images/destaque_19.jpg" },
+        { "name": "Pizza de Nutella", "description": "Pizza doce com Nutella e morangos", "price": "R$35,00", "image": "/images/destaque_20.jpg" }
+      ],
+      "pratos": [
+        { "name": "Focaccia", "description": "Pão italiano com azeite e alecrim", "price": "R$20,00", "image": "/images/pratos_13.jpg" },
+        { "name": "Risoto de Cogumelos", "description": "Risoto cremoso com cogumelos frescos", "price": "R$38,00", "image": "/images/pratos_14.jpg" },
+        { "name": "Pasta al Pesto", "description": "Massa fresca com molho pesto", "price": "R$32,00", "image": "/images/pratos_15.jpg" }
+      ],
+      "bebidas": [
+        { "name": "Água", "description": "Água mineral", "price": "R$4,00", "image": "/images/bebidas_9.jpg" },
+        { "name": "Refrigerante", "description": "Fanta Laranja", "price": "R$6,00", "image": "/images/bebidas_10.jpg" }
+      ]
+    }
+  },
+  {
+    "banner": "/images/banner6.jpg",
+    "logo": "/images/logo6.jpg",
+    "name": "Burger & Grill",
+    "description": "Hamburgueria gourmet com opções de grelhados.",
+    "rating": 4.3,
+    "time": "15-25min",
+    "price": "R$10,00",
+    "phone": "(34) 6789-2345",
+    "address": {
+      "street": "Avenida Brasil, 789",
+      "city": "Uberaba",
+      "zipCode": "38000-555"
+    },
+    "menu": {
+      "destaque": [
+        { "name": "Burger Clássico", "description": "Hambúrguer artesanal com carne de qualidade", "price": "R$25,00", "image": "/images/destaque_21.jpg" },
+        { "name": "Churrasco de Picanha", "description": "Picanha grelhada com molho chimichurri", "price": "R$50,00", "image": "/images/destaque_22.jpg" },
+        { "name": "Burger Vegano", "description": "Hambúrguer vegano com molho especial", "price": "R$28,00", "image": "/images/destaque_23.jpg" },
+        { "name": "Batata Frita", "description": "Batata frita crocante", "price": "R$15,00", "image": "/images/destaque_24.jpg" }
+      ],
+      "pratos": [
+        { "name": "Frango Grelhado", "description": "Peito de frango grelhado com salada", "price": "R$35,00", "image": "/images/pratos_16.jpg" },
+        { "name": "Anéis de Cebola", "description": "Anéis de cebola empanados e fritos", "price": "R$18,00", "image": "/images/pratos_17.jpg" },
+        { "name": "Costela de Porco", "description": "Costela de porco assada com molho barbecue", "price": "R$40,00", "image": "/images/pratos_18.jpg" }
+      ],
+      "bebidas": [
+        { "name": "Água", "description": "Água mineral", "price": "R$4,50", "image": "/images/bebidas_11.jpg" },
+        { "name": "Refrigerante", "description": "Sprite", "price": "R$5,50", "image": "/images/bebidas_12.jpg" }
+      ]
+    }
+  },
+  {
+    "banner": "/images/banner7.jpg",
+    "logo": "/images/logo7.jpg",
+    "name": "Taco Mexicano",
+    "description": "Restaurante mexicano com pratos autênticos.",
+    "rating": 4.4,
+    "time": "20-30min",
+    "price": "R$13,00",
+    "phone": "(34) 7890-3456",
+    "address": {
+      "street": "Rua do México, 123",
+      "city": "Uberaba",
+      "zipCode": "38000-666"
+    },
+    "menu": {
+      "destaque": [
+        { "name": "Tacos", "description": "Taco com carne de frango ou carne bovina", "price": "R$25,00", "image": "/images/destaque_25.jpg" },
+        { "name": "Guacamole", "description": "Abacate temperado com cebola e coentro", "price": "R$20,00", "image": "/images/destaque_26.jpg" },
+        { "name": "Quesadilla", "description": "Tortilla recheada com queijo e carne", "price": "R$30,00", "image": "/images/destaque_27.jpg" },
+        { "name": "Churros", "description": "Churros recheados com doce de leite", "price": "R$18,00", "image": "/images/destaque_28.jpg" }
+      ],
+      "pratos": [
+        { "name": "Burrito", "description": "Tortilla recheada com arroz, feijão e carne", "price": "R$28,00", "image": "/images/pratos_19.jpg" },
+        { "name": "Fajitas", "description": "Tiras de carne com pimentões e cebolas", "price": "R$35,00", "image": "/images/pratos_20.jpg" },
+        { "name": "Nachos", "description": "Tortilhas crocantes com molho de queijo", "price": "R$22,00", "image": "/images/pratos_21.jpg" }
+      ],
+      "bebidas": [
+        { "name": "Água", "description": "Água mineral", "price": "R$3,50", "image": "/images/bebidas_13.jpg" },
+        { "name": "Refrigerante", "description": "Coca-Cola Zero", "price": "R$5,00", "image": "/images/bebidas_14.jpg" }
+      ]
+    }
+  },
+  {
+    "banner": "/images/banner8.jpg",
+    "logo": "/images/logo8.jpg",
+    "name": "Sorveteria do Centro",
+    "description": "Sorvetes artesanais com frutas frescas.",
+    "rating": 4.9,
+    "time": "5-15min",
+    "price": "R$8,00",
+    "phone": "(34) 8901-4567",
+    "address": {
+      "street": "Praça Central, 567",
+      "city": "Uberaba",
+      "zipCode": "38000-777"
+    },
+    "menu": {
+      "destaque": [
+        { "name": "Sorvete de Chocolate", "description": "Sorvete artesanal de chocolate belga", "price": "R$12,00", "image": "/images/destaque_29.jpg" },
+        { "name": "Sorvete de Morango", "description": "Sorvete artesanal de morango fresco", "price": "R$12,00", "image": "/images/destaque_30.jpg" },
+        { "name": "Picolé de Frutas", "description": "Picolé de frutas naturais", "price": "R$6,00", "image": "/images/destaque_31.jpg" },
+        { "name": "Milkshake de Baunilha", "description": "Milkshake cremoso de baunilha", "price": "R$15,00", "image": "/images/destaque_32.jpg" }
+      ],
+      "pratos": [
+        { "name": "Cocada", "description": "Cocada cremosa de leite condensado", "price": "R$8,00", "image": "/images/pratos_22.jpg" },
+        { "name": "Torta de Morango", "description": "Torta de morango com creme de baunilha", "price": "R$18,00", "image": "/images/pratos_23.jpg" },
+        { "name": "Crepe de Nutella", "description": "Crepe recheado com Nutella e morangos", "price": "R$20,00", "image": "/images/pratos_24.jpg" }
+      ],
+      "bebidas": [
+        { "name": "Água", "description": "Água mineral", "price": "R$3,00", "image": "/images/bebidas_15.jpg" },
+        { "name": "Refrigerante", "description": "Coca-Cola", "price": "R$5,00", "image": "/images/bebidas_16.jpg" }
+      ]
+    }
+  }
+]

@@ -1,0 +1,236 @@
+/* app/styles/Restaurant.module.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.logoImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.info h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.menu {
+  margin-top: 40px;
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu h3{
+  font-size: 1.5rem;
+  margin: 20px;
+  font-weight: bold; 
+}
+
+.menuSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.menuItem {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.menuItemImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menuItem h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.menuItem p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+
+/*Carrinho*/
+.cartIcon {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 8px 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 999; /* Garante que o ícone esteja acima de outros elementos */
+}
+
+.cartIcon .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.cartTotal {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmButton {
+  background: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirmButton:hover {
+  background: #45a049;
+}
+
+.totalPrice {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.modalFooter {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/**Modal**/
+
+
+.modalContent {
+  position: relative;  /* Isso é necessário para o botão ser posicionado em relação ao modal */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+}
+
+
+
+
+.closeButton {
+  position: absolute;  /* Posiciona o botão dentro do modal */
+  top: 10px;           /* Distância do topo do modal */
+  right: 10px;         /* Distância da borda direita do modal */
+  background: none;    /* Remove o fundo */
+  border: none;        /* Remove a borda */
+  font-size: 1.5rem;   /* Tamanho do texto */
+  cursor: pointer;    /* Cursor de ponteiro */
+}
+
+.closeButton:hover {
+  color: #333;         /* Cor ao passar o mouse */
+}
+
+.itemList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.quantityButton {
+  background-color: #ff8c00;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .cartIcon {
+    bottom: 10px;
+    right: 10px;
+    padding: 6px 12px; /* Menos padding para telas pequenas */
+  }
+
+  .cartTotal {
+    font-size: 14px; /* Ajuste o tamanho do texto para telas pequenas */
+  }
+}

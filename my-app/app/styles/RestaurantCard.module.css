@@ -1,0 +1,67 @@
+.card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .banner {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .bannerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .logoImage {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente no contêiner */
+    left: 20px; /* Mantém o logo a 20px da borda esquerda */
+    transform: translateY(-50%); /* Ajusta para centralizar corretamente verticalmente */
+    width: 60px;
+    height: 60px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  
+  
+  .info {
+    padding: 20px;
+  }
+  
+  .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .description{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333;    
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: #777;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    color: #f39c12;
+  }
+  
